@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//Custom progressView
 struct LoadingView: View {
     var body: some View {
         ProgressView().progressViewStyle(CircularProgressViewStyle(tint: .white))

@@ -31,6 +31,9 @@ struct WeatherView: View {
                             }else if(weather.weather[0].main == "Rain"){
                                 Image(systemName: "cloud.rain")
                                     .font(.system(size: 40))
+                            }else if(weather.weather[0].main == "Smoke"){
+                                Image(systemName: "smoke")
+                                    .font(.system(size: 40))
                             }
                             else{
                                 Image(systemName: "sun.max")

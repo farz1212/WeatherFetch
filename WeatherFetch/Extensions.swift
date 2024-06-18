@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Round the Double to nearest whole number
 extension Double{
     func roundDouble() -> String{
         return String(format: "%.0f", self)
