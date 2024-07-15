@@ -7,10 +7,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Home: View {
     @StateObject var locationManager = LocationManager()
     var weatherManager = WeatherManager()
     @State var weather: ResponseBody?
+    
     var body: some View {
         VStack {
             if let location = locationManager.location{
@@ -40,5 +41,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Home()
 }
