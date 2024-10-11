@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082183D52CB99798007A1E2D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082183D42CB99798007A1E2D /* Home.swift */; };
 		3DCC03282C20E25700057245 /* WeatherFetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC03272C20E25700057245 /* WeatherFetchApp.swift */; };
-		3DCC032A2C20E25700057245 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC03292C20E25700057245 /* ContentView.swift */; };
 		3DCC032C2C20E25900057245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC032B2C20E25900057245 /* Assets.xcassets */; };
 		3DCC032F2C20E25900057245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC032E2C20E25900057245 /* Preview Assets.xcassets */; };
 		3DCC03372C20E9D600057245 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC03362C20E9D600057245 /* LocationManager.swift */; };
@@ -24,9 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082183D42CB99798007A1E2D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3DCC03242C20E25700057245 /* WeatherFetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherFetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCC03272C20E25700057245 /* WeatherFetchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFetchApp.swift; sourceTree = "<group>"; };
-		3DCC03292C20E25700057245 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DCC032B2C20E25900057245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCC032E2C20E25900057245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DCC03362C20E9D600057245 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		3DCC03382C20ED3B00057245 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				082183D42CB99798007A1E2D /* Home.swift */,
 				3DCC03272C20E25700057245 /* WeatherFetchApp.swift */,
-				3DCC03292C20E25700057245 /* ContentView.swift */,
 				3DCC03392C20EDAF00057245 /* WelcomeView.swift */,
 				3DCC033B2C20F1D100057245 /* LoadingView.swift */,
 				3DCC03422C20FD8700057245 /* WeatherView.swift */,
@@ -194,8 +194,8 @@
 			files = (
 				3DCC034B2C2109FC00057245 /* WeatherRow.swift in Sources */,
 				3DCC033E2C20F34700057245 /* WeatherManager.swift in Sources */,
-				3DCC032A2C20E25700057245 /* ContentView.swift in Sources */,
 				3DCC03452C20FE3400057245 /* ModelData.swift in Sources */,
+				082183D52CB99798007A1E2D /* Home.swift in Sources */,
 				3DCC03372C20E9D600057245 /* LocationManager.swift in Sources */,
 				3DCC03282C20E25700057245 /* WeatherFetchApp.swift in Sources */,
 				3DCC03492C20FFC100057245 /* Extensions.swift in Sources */,
